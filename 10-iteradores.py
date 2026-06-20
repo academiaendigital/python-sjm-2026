@@ -1,4 +1,5 @@
-# ITERADORES CORREN UN DETERMINADO NUMERO DE VECES UN PIEZA DE CODIGO
+# ITERADORES CORREN UN DETERMINADO NUMERO DE VECES 
+# UN PIEZA DE CODIGO
 
 meses= ['octubre','febrero', 'marzo']
 
@@ -7,20 +8,6 @@ for mes in meses:
     print(mes)
 
 print(f'Estoy viajando por el mundo en el mes de {mes}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #imprimir numeros
 #generar secuencias de números enteros. 
@@ -32,8 +19,9 @@ print(f'Estoy viajando por el mundo en el mes de {mes}')
 # range(start, stop, step)
 #start: El número inicial de la secuencia (incluido).
 #stop: El número final de la secuencia (no incluido).
-# step: El incremento entre cada número. Si se omite, el valor por defecto es 1.
+# step: El incremento entre cada número. 
+# Si se omite, el valor por defecto es 1.
 
 
-for numero in range(1,22,2):
+for numero in range(5,105,5):
     print(numero)

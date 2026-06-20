@@ -1,17 +1,18 @@
 #ARREGLOS O LIST EN PYTHON 
 meses= ['octubre','febrero', 'marzo']
-#print(meses)
-#meses.sort()
-#print(meses[1]) #para imrprimir la posicion en especifico
-#print(meses)
+print(meses)
+print(meses[1]) #para imrprimir la posicion en especifico
+meses.sort() #
+print(meses[1]) #para imrprimir la posicion en especifico
+print(meses)
 
 #obtener datos dentro de un arreglos 
-#aprendiendo =f'estamos en el mes de {meses[0]}'
-#print(aprendiendo)
+aprendiendo =f'estamos en el mes de {meses[0]}'
+print(aprendiendo)
 
 #reemplazar el valor de un arreglo
-#meses[2]= 'noviembre'
-#print(meses)
+meses[2]= 'noviembre'
+print(meses)
 
 #ordenar elementos de la list
 #Por defecto, sort() ordena los elementos en orden ascendente, 

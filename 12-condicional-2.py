@@ -11,7 +11,7 @@ else:
 
 
 usuario = 'romanlg' 
-tipoUsuario = 'invitado'
+tipoUsuario = 'admin'
 tiposUsuarios = ['admin','superadmin','invitado']
 
 if tipoUsuario in tiposUsuarios and usuario == 'romanlg':

@@ -1,11 +1,13 @@
 #OBJETOS 
-#un objeto como ya sabemos es similar a un array, te permite agrupar contenido
+#un objeto como ya sabemos es similar a un array, te 
+# permite agrupar contenido
 #diferentes tipos de datos
 #AQUI SE CONOCEN COMO DICCIONARIOS
 
 cancion = {
     'artista': 'Ricardo Arjona',
     'nombre': 'El problema'
+    
 }
 #acceder a los elementos del dicionario
 print(cancion['artista'])

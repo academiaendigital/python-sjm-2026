@@ -5,39 +5,26 @@
 # >  Mayor que
 # <= Menor o igual que
 # >= Mayor o igual que
-
 a = 5
 b = 3
 igual = a == b  # igual es False
 diferente = a !=  b  # diferente es True
 mayor = a >= b  # mayor es True
 
-
-
-
-
 #CONDICIONAL 
-ahorro = 0
+ahorro = 60
 if ahorro >=50:
     print("Nos vamos de viaje")
 else:
     print("no tenemos ahorros")
 
 
-
-
-
-
-
 #REVISAMOS SI UN VALOR ES DIFERENTE EN PYTHON STRING
-lenguaje = 'python'
+lenguaje = 'javascript'
 if not lenguaje == 'python':
     print(f'super eres un crack de {lenguaje}')
 else:
     print(f"no eres un crack de {lenguaje}")
-
-
-
 
 
 #EVALUACION BOOLEAN
@@ -48,8 +35,7 @@ else:
     print('el usuario no se autentico vuelva a intentarlo')
     
     
-    
-    
+  
     
     
     
