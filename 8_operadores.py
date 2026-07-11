@@ -16,7 +16,7 @@ numero = 50
 print(numero)
 
 #incrementar 
-numero += 2
+numero += 4
 print(numero)
 numero += 2
 print(numero)

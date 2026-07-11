@@ -18,3 +18,6 @@
 - input
 - Juego
 - EJERCICIO DE JUEGO DEL NUMERO PAR
+
+##  CLASE 3
+- 

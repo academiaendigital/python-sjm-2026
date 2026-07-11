@@ -23,5 +23,5 @@ print(f'Estoy viajando por el mundo en el mes de {mes}')
 # Si se omite, el valor por defecto es 1.
 
 
-for numero in range(5,105,5):
+for numero in range(5,104,2):
     print(numero)

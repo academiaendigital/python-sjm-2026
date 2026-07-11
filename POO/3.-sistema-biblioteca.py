@@ -1,6 +1,7 @@
 # Sistema de Gestión de Biblioteca 📚
 # Objetivo: Crear un sistema para rastrear libros en una biblioteca.
-# Conceptos: Usar un diccionario donde la clave sea el ID (ISBN) del libro y el valor sea otro diccionario con detalles como {'titulo': '...', 'autor': '...', 'prestado': False}.
+# Conceptos: Usar un diccionario donde la clave sea el ID (ISBN) del libro 
+# y el valor sea otro diccionario con detalles como {'titulo': '...', 'autor': '...', 'prestado': False}.
 # Funciones a Implementar:
 # agregar_libro(isbn, titulo, autor): Añade un nuevo libro.
 # prestar_libro(isbn): Cambia el estado prestado a True.

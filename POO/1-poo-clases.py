@@ -25,15 +25,16 @@ class Carro:
 
 # Creamos un objeto (instancia) de la clase Carro
 mi_carro = Carro("Toyota", "Corolla", "Blanco")
-mi_suma= Calculador(2,5)
-mi_suma.sumar()
 
+mi_carro2 = Carro("Chevrolet", "Optra", "Negro")
 # Acceder a los atributos del objeto
-print(mi_carro.marca)  # Imprime: Toyota
-
+print(mi_carro2.marca)  # Imprime: Toyota
+print(mi_carro2)
+print(mi_carro2.marca)
 # Llamar a un método del objeto
 mi_carro.encender()
 mi_carro.acelerar()
+mi_carro.apagar()
 
 
 
@@ -49,3 +50,7 @@ class Persona:
     def cumplir_anios(self):
         self.edad += 1
         print(f"Feliz cumpleaños, ahora tienes {self.edad} años.")
+mi_persona= Persona("Jenny", 42)
+mi_persona.saludar()
+
+mi_persona.cumplir_anios()

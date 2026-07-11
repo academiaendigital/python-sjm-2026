@@ -3,7 +3,8 @@ playlists = {} #se crea el diccionario vacio
 def crear_playlist():
     nombre_playlist = input('Cómo deseas nombrar tu playlist:\n')
     playlists[nombre_playlist] = []
-    return nombre_playlist #función que retornan un valor en este caso el  nombre de la playlist
+    return nombre_playlist 
+#función que retornan un valor en este caso el  nombre de la playlist
                             
 
 def agregar_canciones(playlist_nombre):
@@ -38,7 +39,7 @@ def mostrar_playlists():
 
 def app():
     while True:
-        print("\nMenú:")
+        print("\n Menú:")
         print("1. Crear una nueva playlist")
         print("2. Agregar canciones a una playlist")
         print("3. Eliminar canciones de una playlist")
